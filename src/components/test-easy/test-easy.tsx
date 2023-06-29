@@ -12,8 +12,8 @@ export const TestEasy = () => {
             <div className={x}>2. Reference in file</div>
             <div className={styles.myClass}>3. Reference between files</div>
             <div className={foo()}>4. Function call</div>
-            <div className={`myClass ${'myClass2'} myClass${3}`}>5. Template string</div>
-            <div className={classNames(x, 'myClass2')}>6. className namespace</div>
+            <div className={`myClass myClass${3}`}>5. Template string</div>
+            <div className={classNames(x, 'myClass2')}>6. classNames namespace</div>
         </>
     );
 };
