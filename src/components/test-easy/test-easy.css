@@ -1,0 +1,20 @@
+.myClass {
+    color: steelblue;
+}
+
+.myClass1 {
+    color: red;
+}
+
+.myClass2 {
+    border: 3px solid green;
+}
+
+.myClass3 {
+    font-weight: bold;
+}
+
+div {
+    margin: 10px;
+    padding: 2px;
+}

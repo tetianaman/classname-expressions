@@ -1,0 +1,25 @@
+.text {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.btn {
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.theme-light {
+    color: darkred;
+}
+
+.btn.theme-light {
+    background-color: antiquewhite;
+}
+
+.theme-dark {
+    color: lightgoldenrodyellow;
+}
+
+.btn.theme-dark {
+    background-color: darkred;
+}
