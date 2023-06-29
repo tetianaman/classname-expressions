@@ -10,7 +10,7 @@ export const NewComponent = () => {
 
     return (
         <>
-            <div className={`text`}>Theme</div>
+            <div className={`text`}>Theme: {themeType}</div>
             <button className={`btn theme-${themeType}`} onClick={handleClick}>
                 Change theme
             </button>
