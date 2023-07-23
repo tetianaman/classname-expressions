@@ -1,5 +1,7 @@
 import styles from './test-component.module.scss';
+import './test-component.css';
+import Classnames from 'classnames';
 
 export const TestComponent = () => {
-    return <div className={`${styles.myClass} test class${2}`}>TestComponent</div>;
+    return <div className={Classnames(`one`)}>TestComponent</div>;
 };
