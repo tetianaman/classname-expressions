@@ -3,6 +3,9 @@ import './template-string.css';
 import Classnames from 'classnames';
 
 export const TemplateString = () => {
+    const iconType: 'fire' | 'water' = 'fire';
+    const mode: 'light' | 'dark' = 'dark';
+
     const x = styles.myClass;
     return (
         <div>
